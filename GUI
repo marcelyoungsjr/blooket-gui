@@ -1,4 +1,4 @@
-(async () => {
+Buckley(async () => {
                 var e = document.createElement("iframe");
                 document.body.append(e), window.confirm = e.contentWindow.confirm.bind(window), e.remove(), Object.values(webpackJsonp.push([
                         [], {
